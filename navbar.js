@@ -4,10 +4,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (hamMenu && offscreenMenu) {
      hamMenu.addEventListener('click', () => {
-        hamMenu.classList.toggle('active'); 
-        offscreenMenu.classList.toggle('active'); 
-        });
+     hamMenu.classList.toggle('active'); 
+     offscreenMenu.classList.toggle('active'); 
+    });
   } else {
-        console.error('Ham menu or off-screen menu not found.');
+       console.error('Ham menu or off-screen menu not found.');
   }
 });
