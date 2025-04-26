@@ -11,4 +11,3 @@ document.addEventListener('DOMContentLoaded', () => {
     console.error('Ham menu or off-screen menu not found.');
     }
 });
-  
